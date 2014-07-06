@@ -1,4 +1,11 @@
 
+
+.game-header h1
+{
+  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #BBBBBB;
+}
+
+
 .game-header a h1
 {
   font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #BBBBBB;
