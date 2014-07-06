@@ -53,15 +53,15 @@ body {
     line-height: 18px;
 }
 .game-content table.two-column-stats th {
-    width: 1%;
+    width: auto;
 }
 .game-content table.two-column-stats td {
-    width: 1%;
+    width: auto;
 }
 
 .game-content table {
     margin-bottom: 1px;
-    width: 1%;
+    width: auto;
 }
 .game-content th, .game-content td {
     padding: 1px 1px 1px 1px;
