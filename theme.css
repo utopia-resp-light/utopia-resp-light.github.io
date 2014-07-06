@@ -33,20 +33,20 @@ body {
 
 
 #header-logo {
-    background: url(./images/logo_header.png) no-repeat top left;
+    /* background: url(./images/logo_header.png) no-repeat top left;
     width: 243px;
     height: 49px;
-    position: absolute;
+    position: absolute;*/
 }
 
 .navigation {
 
     /* border styling */
-    border: 2px solid;
+   /* border: 2px solid;
     border-radius: 2px;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-
+*/
     /* internal styling - padding etc. */
 
     /* typography */
