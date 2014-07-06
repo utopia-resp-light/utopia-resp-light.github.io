@@ -23,6 +23,42 @@
 th, td {
     padding: 0;
 }
+
+
+
+.two-column-stats {
+    border-collapse: collapse;
+    color: red;
+    padding: 0;
+}
+th, td {
+    padding: 0;
+}
+body {
+    background-color: #f0f0f0;
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#game-navigation .current-date {
+    padding: 0;
+}
+#left-column {
+    margin-left: 1px;
+}
+.game-content h2 {
+    font-size: 16px;
+}
+.game-content h2 {
+    line-height: 18px;
+}
+.game-content table.two-column-stats th {
+    width: 1%;
+}
+.game-content table.two-column-stats td {
+    width: 1%;
+}
+
 body {
     color: black;
     font-family: Arial, Helvetica, sans-serif; font-size: 12px;
