@@ -15,8 +15,13 @@
 
 .two-column-stats{
   color: red;
-  cellspacing: "0";
-  cellpadding: "0";
+
+ border-collapse: collapse;
+}
+th, td {
+    padding: 0;
+}
+
 }
 
 body {
