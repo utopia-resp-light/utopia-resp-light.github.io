@@ -1079,7 +1079,7 @@ td.news-province-modification {
 
 .game-header h1
 {
-    height: 22px;
+  /*  height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
 
@@ -1096,40 +1096,40 @@ td.news-province-modification {
     box-shadow: 1px 1px 1px 1px #6d664a;
 
     background: #c4bea9; /* Old browsers */
-    background: -moz-linear-gradient(top,  #908661 0%, #c4bea9 15%, #f9f9f9 33%, #f9f9f9 65%, #c4bea9 84%, #908661 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#908661), color-stop(15%,#c4bea9), color-stop(33%,#f9f9f9), color-stop(65%,#f9f9f9), color-stop(84%,#c4bea9), color-stop(100%,#908661)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* IE10+ */
-    background: linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* W3C */
+/*    background: -moz-linear-gradient(top,  #908661 0%, #c4bea9 15%, #f9f9f9 33%, #f9f9f9 65%, #c4bea9 84%, #908661 100%); /* FF3.6+ */
+/*    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#908661), color-stop(15%,#c4bea9), color-stop(33%,#f9f9f9), color-stop(65%,#f9f9f9), color-stop(84%,#c4bea9), color-stop(100%,#908661)); /* Chrome,Safari4+ */
+/*    background: -webkit-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Chrome10+,Safari5.1+ */
+/*    background: -o-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* Opera 11.10+ */
+/*    background: -ms-linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* IE10+ */
+/*    background: linear-gradient(top,  #908661 0%,#c4bea9 15%,#f9f9f9 33%,#f9f9f9 65%,#c4bea9 84%,#908661 100%); /* W3C */
 
     color: #000;
 
 }
 
 .game-header a h1 {
-    background: #494432; /* Old browsers */
-    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
-    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
+   /* background: #494432; /* Old browsers */
+/*    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
+/*    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
+/*    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
+/*    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
+/*    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
+/*    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
 }
 
 .game-header a h1:hover
 {
-    -moz-text-shadow: none;
+/*    -moz-text-shadow: none;
     -webkit-text-shadow: none;
     text-shadow: none;
-
-    background: #29261c; /* Old browsers */
-    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
-    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
+*/
+/*    background: #29261c; /* Old browsers */
+/*    background: -moz-linear-gradient(top,  #29261c 0%, #494432 15%, #7b7354 45%, #7b7354 55%, #494432 84%, #29261c 100%); /* FF3.6+ */
+/*    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29261c), color-stop(15%,#494432), color-stop(45%,#7b7354), color-stop(55%,#7b7354), color-stop(84%,#494432), color-stop(100%,#29261c)); /* Chrome,Safari4+ */
+/*    background: -webkit-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Chrome10+,Safari5.1+ */
+/*    background: -o-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* Opera 11.10+ */
+/*    background: -ms-linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* IE10+ */
+/*    background: linear-gradient(top,  #29261c 0%,#494432 15%,#7b7354 45%,#7b7354 55%,#494432 84%,#29261c 100%); /* W3C */
 
     color: #fff;
     box-shadow: 0px 5px 3px -3px #fff;
