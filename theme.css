@@ -15,20 +15,15 @@ FOLLOW THIS FORMAT:
 */
 
 @font-face {
-    font-family: 'KnightsQuestRegular';
-    src: url('./fonts/knights-webfont.eot');
-    src: url('./fonts/knights-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/knights-webfont.woff') format('woff'),
-         url('./fonts/knights-webfont.ttf') format('truetype'),
-         url('./fonts/knights-webfont.svg#KnightsQuestRegular') format('svg');
+    font-family:"Times New Roman",Georgia,Serif;
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-    color: grey;
+    color: black;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: white;
+    background-color: #F8F8F8;
 }
 
 
