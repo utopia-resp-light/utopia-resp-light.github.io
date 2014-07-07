@@ -520,7 +520,7 @@ form ul.errorlist {
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 30px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -552,30 +552,18 @@ form input[type=password] {
     border-width: 1px;
     border-color: #d7d7d7;
     padding-left: 3px;
-    font-family: KnightsQuestRegular;
-    font-size: 20px;
+
+    font-size: 18px;
     text-align: left;
-
-    -moz-box-shadow: inset 0px 0px 4px #7c4a14;
-    -webkit-box-shadow: inset 0px 0px 4px #7c4a14;
-    box-shadow: inset 0px 0px 6px #000;
-
-    color: #fff;
-    background: #3a3830; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #3a3830 0%, #23221f 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3a3830), color-stop(100%,#23221f)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #3a3830 0%,#23221f 100%); /* W3C */
-
+    color: #000;
+    
 
 }
 
 form input[type=text],
 form input[type=password] {
-    height: 30px;
-    font-size: 30px;
+    height: 20px;
+    font-size: 18px;
 }
 
 form .errorlist {
@@ -589,34 +577,19 @@ form input[type=submit],
     /* border styling */
     border: 1px solid;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+
 
 
     /* internal styling - padding etc. */
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
     font-weight: normal;
-    -moz-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    -webkit-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 1px #3d2f1a;
+   
 
     /* colors */
     border-color: #7c551a;
-    -moz-box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
-    -webkit-box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
-    box-shadow: 1px -1px 1px 0px #D4CAA8 , -1px 1px 2px #3d2f1a, inset 0px 0px 10px #000;
 
-    background: #9c7815; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #E5C40F 0%, #7c551a 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#E5C40F ), color-stop(100%,#7c551a)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #E5C40F  0%,#7c551a 100%); /* W3C */
-
-    color: #fff;
 }
 
 form input[type=submit]:hover,
@@ -990,6 +963,8 @@ td.news-province-modification {
 
 .two-digit-input {
     width: 50px;
+	font-size: 18px !important;
+	color: red ;
 }
 .three-digit-input {
     width: 55px;
@@ -1178,6 +1153,12 @@ text-align:left !important;
 background:#FFF !important;
 color:#45ACF6 !important;
 }
+#href_tag, #but_tag {
+background:#CCC !important;
+color: #000;
+border-color:#CCC !important;
+padding:0px;
+}
 
 /***** Fixing Issues in Layout.css ***/
 #header-navigation {
@@ -1220,4 +1201,24 @@ color:#45ACF6 !important;
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: left;
+}
+.game-content form.change-kingdom .change-kingdom-nav {
+    margin: 5px 0 4px 4px;
+    display: inline-block;
+}
+
+.game-content form.change-kingdom .change-kingdom-nav a {
+    display: inline-block;
+    width: auto !important;
+
+    padding: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#change-kingdom-button {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+	font-size: 18px !important;
 }
