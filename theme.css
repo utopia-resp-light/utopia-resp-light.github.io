@@ -1033,6 +1033,7 @@ div.wysiwyg {
 
 div.wysiwyg ul.toolbar li {
     background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
+background: rgb(86, 83, 74);
     border: 1px outset #83817d;
 }
 
