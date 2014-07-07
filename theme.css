@@ -577,12 +577,13 @@ form input[type=submit],
 form input[type=submit]:hover,
 .button-link:hover {
     /* colors */
-
+}
 
 form input[type=submit]:active,
 .button-link:active {
     /* colors */
 
+}
 
 div.selector span,
 div.uploader span.filename,
@@ -590,14 +591,14 @@ div.uploader span.action
 {
     padding-left: 5px;
     /* typography */
-    font-size: 18px !important;
+    font-size: 14px !important;
     font-weight: normal;
     text-align: left;
 }
 div.uploader span.filename,
 div.uploader span.action
 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .game-content form table {
