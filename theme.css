@@ -33,14 +33,11 @@ body {
 .navigation {
 
     /* border styling */
-    border: 2px solid;
-    border-radius: 2px;
-    
-
+    border: 1px solid;
+    border-radius: 1px;
     /* internal styling - padding etc. */
-
     /* typography */
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     text-align: left;
    
@@ -134,7 +131,7 @@ a.highlighted {
 
 a.info-link {
   
-    font-size: 14px;
+    font-size: 12px;
 }
 
 a:focus,
@@ -180,7 +177,7 @@ h3 {
 .lobby-panel,
 .campaigns {
     /* border styling */
-    border: 2px solid;
+    border: 1px solid;
     /* internal styling - padding etc. */
     /* typography */
     /* colors */
@@ -188,7 +185,7 @@ h3 {
     }
 
 .lobby-panel h1 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: #EBE8CD;
 }
@@ -198,7 +195,7 @@ h3 {
 }
 
 lobby-panel th{
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .divider {
@@ -226,21 +223,21 @@ lobby-panel th{
 
 
 .lobby-panel table th {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .lobby-panel table td {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .lobby-panel h2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 30px;
 }
 
 .age-changes h3,
 .campaigns h3 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -257,7 +254,7 @@ lobby-panel th{
 }
 
 .campaigns .basic-details .campaign-summary h2{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .campaigns .basic-details .campaign-summary .highlight-keyword{
@@ -276,8 +273,8 @@ lobby-panel th{
 
 .message {
     font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
 
     /* border styling */
     border: 1px solid;
@@ -288,7 +285,7 @@ lobby-panel th{
     /* internal styling - padding etc. */
     /* typography */
     
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .good.message
@@ -330,7 +327,7 @@ lobby-panel th{
 }
 
 .lobby-panel .statement h2 {
-    line-height: 16px;
+    line-height: 14px;
 }
 /*
 .advice-message {
@@ -345,7 +342,7 @@ lobby-panel th{
     color: #e55700;
 }
 #game-navigation div{
- font-size: 14px;
+ font-size: 12px;
 }
 
 #game-navigation .current-date {
@@ -354,7 +351,7 @@ lobby-panel th{
    
    
     /* border styling */
-    border: 2px solid;
+    border: 1px solid;
 }
 
 #game-navigation a {
@@ -369,12 +366,12 @@ lobby-panel th{
 #resource-bar
 {
     /* border styling */
-    border: 2px solid;
+    border: 1px solid;
    
 
     /* typography */
 
-    font-size: 14px;
+    font-size: 12px;
 
    
 
@@ -431,7 +428,7 @@ lobby-panel th{
 
 .game-content form,
 .game-content h2 {
-    border: 2px solid;
+    border: 1px solid;
     border-left: 0px;
     border-right: 0px;
 
@@ -472,11 +469,11 @@ form ul.errorlist {
 
 .game-content form.change-kingdom {
     /* typography */
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -489,7 +486,7 @@ form ul.errorlist {
 
 .game-content form.change-kingdom.change-kingdom-target {
     border: 0px;
-    border-top: 2px solid;
+    border-top: 1px solid;
     border-color: #555555;
 
 
@@ -503,7 +500,7 @@ form input[type=password] {
     border-color: #d7d7d7;
     padding-left: 3px;
 
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     color: #000;
     
@@ -512,8 +509,8 @@ form input[type=password] {
 
 form input[type=text],
 form input[type=password] {
-    height: 20px;
-    font-size: 18px;
+    height: 18px;
+    font-size: 16px;
 }
 
 form .errorlist {
@@ -531,7 +528,7 @@ form input[type=submit],
     /* internal styling - padding etc. */
     /* typography */
     
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
    
 
@@ -557,19 +554,19 @@ div.uploader span.action
 {
     padding-left: 5px;
     /* typography */
-    font-size: 14px !important;
+    font-size: 12px !important;
     font-weight: normal;
     text-align: left;
 }
 div.uploader span.filename,
 div.uploader span.action
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .game-content form table {
     border: 0px;
-    border-top: 2px solid;
+    border-top: 1px solid;
     border-color: #555555;
     margin-bottom: 10px;
 
@@ -582,16 +579,16 @@ div.uploader span.action
 
     
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     vertical-align: bottom;
 }
 
 .game-content form tbody th {
-    border-left: 2px ridge rgba(48, 48, 48, 0.4);
+    border-left: 1px ridge rgba(48, 48, 48, 0.4);
  
-    font-size: 16px;
+    font-size: 14px;
 
 }
 
@@ -600,7 +597,7 @@ div.uploader span.action
 }
 
 .game-content form tbody td {
-    padding-right: 20px;
+    padding-right: 18px;
     font-size: 12px;
     text-align: center;
 }
@@ -617,7 +614,7 @@ div.uploader span.action
 
 
 .game-content form.change-kingdom #royal-commands {
-    border-top: 2px dotted #000;
+    border-top: 1px dotted #000;
 }
 
 .game-content form.change-kingdom #royal-commands table {
@@ -636,8 +633,8 @@ div.uploader span.action
 
 
 .game-content form.change-kingdom #royal-commands .button-link {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 /* KINGDOM NEWS */
@@ -746,7 +743,7 @@ content: "O";
 
 .provinces-legend .invitations {
 
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .dip-status
@@ -818,8 +815,8 @@ content: "O";
 .game-header
 {
     height: 30px;
-    border-top: 2px solid #6b6348;
-    border-bottom: 2px solid #6b6348;
+    border-top: 1px solid #6b6348;
+    border-bottom: 1px solid #6b6348;
     
 }
 
@@ -828,7 +825,7 @@ content: "O";
     height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
-    font-size: 14px;
+    font-size: 12px;
     color: #000;
 }
 
@@ -842,22 +839,21 @@ content: "O";
 }
 
 .game-content {
-    border: 2px solid;
+    border: 1px solid;
 
     /* border styling */
-    border-radius: 2px;
+    border-radius: 1px;
     
-
     /* colors */
     border-color: #555555;
    
 }
 
 .game-content h2 {
-    margin-top: 20px;
+    margin-top: 18px;
     border: 0px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     border-color: #555555;
    
     line-height: 30px;
@@ -869,7 +865,7 @@ content: "O";
 .game-content thead th {
     
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
 
    
 }
@@ -877,7 +873,7 @@ content: "O";
 .game-content tbody th {
     border-left: 6px ridge rgba(48, 48, 48, 0.4);
  
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -886,12 +882,12 @@ content: "O";
 }
 
 .game-content tbody td {
-    padding-right: 20px;
+    padding-right: 18px;
 }
 
 .game-content tbody tr {
-    border-bottom: 2px groove rgba(48, 48, 48, 0.4);
-    border-top: 2px groove rgba(48, 48, 48, 0.4);
+    border-bottom: 1px groove rgba(48, 48, 48, 0.4);
+    border-top: 1px groove rgba(48, 48, 48, 0.4);
 
 }
 
@@ -907,7 +903,7 @@ content: "O";
 }
 .game-content tr.sub-total td
 {
-    border-top: 2px solid #B9B9B9;
+    border-top: 1px solid #B9B9B9;
     padding-bottom: 25px;
 }
 
@@ -920,7 +916,7 @@ content: "O";
 
 .two-digit-input {
     width: 50px;
-	font-size: 18px !important;
+	font-size: 16px !important;
 	color: red ;
 }
 .three-digit-input {
@@ -951,7 +947,7 @@ content: "O";
 .game-content table.applicant-view input[type="submit"],
 .game-content table.mail-view input[type="submit"],
 .game-content table.mail-view .button-link {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 table.mail-view td.formatted-text {
@@ -979,7 +975,7 @@ body.wysiwyg {
 #bookmark-header:before {
   content: "BM+";
   margin-left: -10px ;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -1040,8 +1036,7 @@ body.wysiwyg {
    
     font-weight: 200;
     color: white;
-    text-shadow: -1px 1px 2px black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #uniform-id-orderby {
@@ -1099,7 +1094,7 @@ padding:0px;
 .game-content table.two-column-stats th {
     width: 10%;
     text-align: right;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .game-content table.two-column-stats td {
@@ -1112,7 +1107,7 @@ padding:0px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .game-content h3 {
@@ -1131,7 +1126,7 @@ padding:0px;
     width: auto !important;
 
     padding: 3px;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -1143,7 +1138,7 @@ margin: 5px 5px 5px 5px !important;
     display: inline-block;
     height: 30px;
     width: 40px;
-	font-size: 18px !important;
+	font-size: 16px !important;
 }
 
 
@@ -1173,5 +1168,5 @@ margin: 5px 5px 5px 5px !important;
 }
 
 #col_0, #col_1, #col_2, #col_3, #col_4, #col_5, #col_6{
-  font-size: 14px;
+  font-size: 12px;
 }
