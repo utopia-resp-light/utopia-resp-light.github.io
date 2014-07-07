@@ -360,11 +360,11 @@ lobby-panel th{
 .lobby-panel .statement h2 {
     line-height: 16px;
 }
-
+/*
 .advice-message {
-    color: #green;
+    color: #a5d387;
 }
-
+*/
 .warning {
     color: #e55700;
 }
@@ -1240,6 +1240,10 @@ margin: 5px 5px 5px 5px !important;
 	font-size: 18px !important;
 }
 
+
+/* MISC Stuff that needed to be at end of file because it was getting
+ * botched up somewhere above
+ */
 .game-header h1:before{
 	content: "| " !important;
 }
@@ -1250,8 +1254,11 @@ margin: 5px 5px 5px 5px !important;
 }
 
 .good{
-color: green;
+	color: green;
 }
 .bad{
-color: #C00000;
+	color: #C00000;
+}
+.advice-message {
+	color: #green;
 }
