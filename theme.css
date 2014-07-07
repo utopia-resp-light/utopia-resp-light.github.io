@@ -677,15 +677,12 @@ div.uploader span.action
 
 .game-content form.change-kingdom #royal-commands table {
     border-top: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+
 }
 
 .game-content form.change-kingdom #royal-commands table tbody td,
 .game-content form.change-kingdom #royal-commands input[type=text] {
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 13px;
+
     font-weight: normal;
 }
 
