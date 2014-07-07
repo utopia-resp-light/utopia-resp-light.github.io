@@ -625,6 +625,8 @@ div.uploader span.action
     font-size: 15px !important;
     font-weight: normal;
     text-align: left;
+	color: #000 !important;
+	background-color: #f8f8f8 !important;
 }
 div.uploader span.filename,
 div.uploader span.action
