@@ -696,7 +696,6 @@ div.uploader span.action
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-   
 }
 
 .game-content form.change-kingdom #royal-commands table tbody td,
@@ -715,54 +714,89 @@ div.uploader span.action
 /* KINGDOM NEWS */
 
 .news-legend span.news-aid:before {
-    content: url(./images/kingdom_news/aid_inline.png);
+	content: "+: ";
+/*    content: url(./images/kingdom_news/aid_inline.png);*/
 }
 .news-legend span.news-intra-kingdom-conflict:before {
-    content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png);
+    content: "$: ";
+/*content: url(./images/kingdom_news/intra_kingdom_conflict_inline.png);*/
 }
 .news-legend span.news-actions-against-our-kingdom:before {
-    content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png);
+	content: "%: ";
+/*    content: url(./images/kingdom_news/actions_against_our_kingdom_inline.png);*/
 }
 .news-legend span.news-actions-by-our-kingdom:before {
-    content: url(./images/kingdom_news/actions_by_our_kingdom_inline.png);
+	content: "*: ";
+/*    content: url(./images/kingdom_news/actions_by_our_kingdom_inline.png);*/
 }
 .news-legend span.news-dragon:before {
-    content: url(./images/kingdom_news/dragon_inline.png);
+	content: "D: ";
+/*    content: url(./images/kingdom_news/dragon_inline.png);*/
 }
 .news-legend span.news-obituaries:before {
-    content: url(./images/kingdom_news/obituaries_inline.png);
+	content: "O: ";
+    /*content: url(./images/kingdom_news/obituaries_inline.png);*/
 }
 .news-legend span.news-relations:before {
-    /*content: url(./images/kingdom_news/relations_inline.png);*/
-    content: "R";
+	content: "R: ";
+	/*url("http://spahrep.github.io//images/kingdom_news/relations.png");*/
 }
+
 .news-province-modification:before {
-    content: url(./images/kingdom_news/province_modification_inline.png);
+content: "M: ";
+/*    content: url(./images/kingdom_news/province_modification_inline.png);*/
 }
 
 td.news-aid {
-    background-image: url(./images/kingdom_news/aid.png);
+    /*background-image: url(./images/kingdom_news/aid.png);*/
 }
 td.news-intra-kingdom-conflict {
-    background-image: url(./images/kingdom_news/intra_kingdom_conflict.png);
+/*    background-image: url(./images/kingdom_news/intra_kingdom_conflict.png);*/
 }
 td.news-actions-against-our-kingdom {
-    background-image: url(./images/kingdom_news/actions_against_our_kingdom.png);
+/*    background-image: url(./images/kingdom_news/actions_against_our_kingdom.png);*/
 }
 td.news-actions-by-our-kingdom {
-    background-image: url(./images/kingdom_news/actions_by_our_kingdom.png);
+/*    background-image: url(./images/kingdom_news/actions_by_our_kingdom.png);*/
 }
 td.news-dragon {
-    background-image: url(./images/kingdom_news/dragon.png);
+/*    background-image: url(./images/kingdom_news/dragon.png);*/
 }
 td.news-obituaries {
-    background-image: url(./images/kingdom_news/obituaries.png);
+/*    background-image: url(./images/kingdom_news/obituaries.png);*/
 }
 td.news-relations {
-    background-image: url(./images/kingdom_news/relations.png);
+   /* background-image: url("./images/kingdom_news/relations.png");*/
 }
+
 td.news-province-modification {
-    background-image: url(./images/kingdom_news/province_modification.png);
+/*    background-image: url(./images/kingdom_news/province_modification.png);*/
+}
+td.news-relations:before{
+content: "R";
+}
+.news-province-modification:before {
+content: "M: ";
+}
+
+td.news-aid:before {
+content: "+";
+}
+td.news-intra-kingdom-conflict:before {
+content: "$";
+}
+td.news-actions-against-our-kingdom:before {
+content: "%";
+}
+
+td.news-actions-by-our-kingdom:before {
+content: "*";
+}
+td.news-dragon:before {
+content: "D";
+}
+td.news-obituaries:before {
+content: "O";
 }
 
 /* KINGDOM DETAILS */
@@ -1223,4 +1257,3 @@ margin: 5px 5px 5px 5px !important;
     width: 40px;
 	font-size: 18px !important;
 }
-
