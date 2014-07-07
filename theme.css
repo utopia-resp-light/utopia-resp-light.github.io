@@ -582,7 +582,7 @@ div.uploader span.action
 
     
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     vertical-align: bottom;
@@ -591,7 +591,7 @@ div.uploader span.action
 .game-content form tbody th {
     border-left: 2px ridge rgba(48, 48, 48, 0.4);
  
-    font-size: 20px;
+    font-size: 16px;
 
 }
 
@@ -976,38 +976,12 @@ body.wysiwyg {
 }
 
 
-#bookmark-header {
-    background-image: url(./images/gold_star.png);
-    background-repeat: no-repeat;
-    background-position: center 3px;
+#bookmark-header:before {
+  content: "Bookmark";
+  margin-left: -60px ;
 }
 
-#bookmark-header:hover,
-#bookmark-header.selected
-{
-    background-color: #494432;
-}
 
-#bookmark-details
-{
-    font-size: 16px;
-}
-
-#bookmark-details div
-{
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
-#bookmark-details a:hover {
-    box-shadow: -10px 0px 6px -6px #fff;
-}
-
-#bookmark-details #bookmarks {
-    border-top: 1px solid #29261c;
-    border-bottom: 1px solid #29261c;
-
-}
 
 #royal-command-icon {
     background-image: url(./images/gold_crown.png);
