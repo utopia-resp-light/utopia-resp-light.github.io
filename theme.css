@@ -1028,7 +1028,7 @@ table.mail-view td.formatted-text {
 div.wysiwyg {
     border: 1px solid #999;
     padding: 5px;
-    background: rgb(86, 83, 74);
+    /*background: rgb(86, 83, 74);*/
 }
 
 div.wysiwyg ul.toolbar li {
@@ -1037,8 +1037,8 @@ div.wysiwyg ul.toolbar li {
 }
 
 body.wysiwyg {
-    color: #fff;
-    background: #3a3830; /* Old browsers */
+    color: #000;
+
     font-size: 12px;
 }
 
