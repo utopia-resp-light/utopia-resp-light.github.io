@@ -252,6 +252,7 @@ lobby-panel th{
     font-size: 22px;
 }
 
+/*
 .good {
     color: #90ee90;
 }
@@ -259,6 +260,7 @@ lobby-panel th{
 .bad {
     color: #EC7566;
 }
+*/
 
 .message {
     font-weight: bold;
@@ -274,7 +276,7 @@ lobby-panel th{
 
     /* internal styling - padding etc. */
     /* typography */
-    font-family: KnightsQuestRegular;
+    
     font-size: 20px;
 }
 
@@ -633,7 +635,7 @@ div.uploader span.action
 .game-content form table thead th {
     height: 36px;
 
-    font-family: KnightsQuestRegular;
+    
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -643,7 +645,7 @@ div.uploader span.action
 
 .game-content form tbody th {
     border-left: 2px ridge rgba(48, 48, 48, 0.4);
-    font-family: KnightsQuestRegular;
+ 
     font-size: 20px;
 
 }
@@ -798,7 +800,7 @@ content: "O";
 }
 
 .provinces-legend .invitations {
-    font-family: KnightsQuestRegular;
+
     font-size: 18px;
 }
 
@@ -920,7 +922,7 @@ content: "O";
 
 
 .game-content thead th {
-    font-family: KnightsQuestRegular;
+    
     font-weight: normal;
     font-size: 18px;
 
@@ -1129,7 +1131,7 @@ body.wysiwyg {
 }
 
 .campaigns .campaign-message-intro {
-    font-family: KnightsQuestRegular;
+   
     font-weight: 200;
     color: white;
     text-shadow: -1px 1px 2px black;
@@ -1245,4 +1247,11 @@ margin: 5px 5px 5px 5px !important;
 
 .game-header h1:after{
 	content: " |" !important;
+}
+
+.good{
+color: green;
+}
+.bad{
+color: #C00000;
 }
