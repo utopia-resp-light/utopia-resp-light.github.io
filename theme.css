@@ -977,8 +977,8 @@ body.wysiwyg {
 
 
 #bookmark-header:before {
-  content: "BM";
-  margin-left: -40px ;
+  content: "BM+";
+  margin-left: -10px ;
   font-size: 16px;
 }
 
