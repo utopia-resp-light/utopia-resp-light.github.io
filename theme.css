@@ -801,7 +801,7 @@ content: "O";
 
 /* KINGDOM DETAILS */
 .unused-slot { color: #B0B0B0; }
-.protected,
+.protected { color: #00CC66;}
 .intel-fresh { color: #99ffbb; }
 .monarch,
 .at-war,
@@ -899,11 +899,17 @@ content: "O";
     height: 22px;
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
-
     font-size: 14px;
-
     color: #000;
+}
 
+.game-header h1:before{
+	content: "| ";
+}
+
+
+.game-header h1:after{
+	content: " |";
 }
 
 .game-header a h1 {
@@ -1212,6 +1218,7 @@ padding:0px;
 .game-content table.two-column-stats th {
     width: 10%;
     text-align: right;
+    font-size: 14px;
 }
 
 .game-content table.two-column-stats td {
