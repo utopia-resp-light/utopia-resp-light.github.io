@@ -903,15 +903,6 @@ content: "O";
     color: #000;
 }
 
-.game-header h1:before{
-	content: "| " !important;
-}
-
-
-.game-header h1:after{
-	content: " |" !important;
-}
-
 .game-header a h1 {
     
 }
@@ -1264,4 +1255,12 @@ margin: 5px 5px 5px 5px !important;
     width: 40px;
 	font-size: 18px !important;
 }
- 
+
+.game-header h1:before{
+	content: "| " !important;
+}
+
+
+.game-header h1:after{
+	content: " |" !important;
+}
