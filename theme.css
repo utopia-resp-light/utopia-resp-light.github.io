@@ -562,8 +562,6 @@ form input[type=submit],
     border: 1px solid;
     border-radius: 4px;
 
-
-
     /* internal styling - padding etc. */
     /* typography */
     
@@ -579,26 +577,12 @@ form input[type=submit],
 form input[type=submit]:hover,
 .button-link:hover {
     /* colors */
-    background: #c99a1a;
-    background: -moz-radial-gradient(center, ellipse cover,  #ead464 0%, #775f3a 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ead464 ), color-stop(100%,#775f3a)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #ead464  0%,#775f3a 100%); /* W3C */
-}
+
 
 form input[type=submit]:active,
 .button-link:active {
     /* colors */
-    background: #ba8500;
-    background: -moz-radial-gradient(center, ellipse cover,  #fceea6 0%, #9b7e52 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fceea6 ), color-stop(100%,#9b7e52)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* IE10+ */
-    background: radial-gradient(center, ellipse cover,  #fceea6  0%,#9b7e52 100%); /* W3C */
-}
+
 
 div.selector span,
 div.uploader span.filename,
