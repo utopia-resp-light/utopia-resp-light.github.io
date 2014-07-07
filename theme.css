@@ -181,14 +181,10 @@ h3 {
 .campaigns {
     /* border styling */
     border: 2px solid;
-
     /* internal styling - padding etc. */
-
     /* typography */
-
     /* colors */
     border-color: #555555;
-
     }
 
 .lobby-panel h1 {
@@ -199,6 +195,10 @@ h3 {
 
 .lobby-panel h1 a:hover {
     color: #fff;
+}
+
+lobby-panel th{
+	font-size: 14px;
 }
 
 .divider {
@@ -214,8 +214,7 @@ h3 {
 }
 
 .lobby-panel table th {
-    font-family: KnightsQuestRegular;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .lobby-panel table td {
@@ -223,7 +222,7 @@ h3 {
 }
 
 .lobby-panel h2 {
-    font-size: 24px;
+    font-size: 14px;
     line-height: 30px;
 }
 
