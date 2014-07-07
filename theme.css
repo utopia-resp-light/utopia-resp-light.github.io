@@ -1216,9 +1216,14 @@ padding:0px;
     text-align: center;
 }
 
+.game-content p {
+margin: 5px 5px 5px 5px !important;
+}
+
 #change-kingdom-button {
     display: inline-block;
     height: 30px;
     width: 40px;
 	font-size: 18px !important;
 }
+
