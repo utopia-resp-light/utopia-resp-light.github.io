@@ -979,6 +979,7 @@ body.wysiwyg {
 #bookmark-header:before {
   content: "Bookmark";
   margin-left: -60px ;
+  font-size: 16px;
 }
 
 
