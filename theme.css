@@ -622,13 +622,10 @@ div.uploader span.action
 {
     padding-left: 5px;
     /* typography */
-    font-family: KnightsQuestRegular;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
     text-align: left;
-    -moz-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    -webkit-text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 2px #3d2f1a;
-    text-shadow: -1px 1px 2px #3d2f1a, 1px -1px 1px #3d2f1a;
+   
 }
 div.uploader span.filename,
 div.uploader span.action
