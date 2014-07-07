@@ -188,13 +188,13 @@ h3 {
     }
 
 .lobby-panel h1 {
-    font-size: 14px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 30px;
     color: #EBE8CD;
 }
 
 .lobby-panel h1 a:hover {
-    color: #fff;
+    color: #000;
 }
 
 lobby-panel th{
