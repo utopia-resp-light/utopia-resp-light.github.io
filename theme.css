@@ -904,12 +904,12 @@ content: "O";
 }
 
 .game-header h1:before{
-	content: "| ";
+	content: "| " !important;
 }
 
 
 .game-header h1:after{
-	content: " |";
+	content: " |" !important;
 }
 
 .game-header a h1 {
