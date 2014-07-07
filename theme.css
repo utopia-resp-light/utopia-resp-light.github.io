@@ -1028,18 +1028,16 @@ table.mail-view td.formatted-text {
 div.wysiwyg {
     border: 1px solid #999;
     padding: 5px;
-    /*background: rgb(86, 83, 74);*/
+    background: rgb(86, 83, 74);
 }
 
 div.wysiwyg ul.toolbar li {
     background: url('./images/jquery.wysiwyg.gif') no-repeat -64px -80px;
-background: rgb(86, 83, 74);
     border: 1px outset #83817d;
 }
 
 body.wysiwyg {
-    color: #fff;
-
+    color: #000;
     font-size: 12px;
 }
 
