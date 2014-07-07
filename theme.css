@@ -348,8 +348,6 @@ lobby-panel th{
 #game-navigation .current-date {
 
     padding: 11px 0px;
-   
-   
     /* border styling */
     border: 1px solid;
 }
@@ -359,8 +357,7 @@ lobby-panel th{
 }
 
 #game-navigation a:hover {
-    box-shadow: -10px 0px 6px -6px #fff;
-
+ 
 }
 
 #resource-bar
@@ -399,7 +396,6 @@ lobby-panel th{
 
     font-size: 11px;
     font-weight: lighter;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     text-align: right;
     color: #a9a9a9;
 
@@ -436,21 +432,16 @@ lobby-panel th{
 
     /* colors */
     border-color: #181818;
-
-   
-
 }
 
 .game-content h3 {
     font-size: 24px;
     color: #000;
-    
 }
 
 .game-content form {
     font-size: 12px;
     font-weight: bolder;
-    
 }
 
 .game-content form.no-visible-fields {
@@ -1169,4 +1160,7 @@ margin: 5px 5px 5px 5px !important;
 
 #col_0, #col_1, #col_2, #col_3, #col_4, #col_5, #col_6{
   font-size: 12px;
+}
+#game-navigation .navigation {
+    margin-bottom: 5px;
 }
