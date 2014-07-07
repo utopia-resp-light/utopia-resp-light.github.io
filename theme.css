@@ -746,7 +746,7 @@ content: "O";
 
 .provinces-legend .invitations {
 
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .dip-status
@@ -1197,6 +1197,6 @@ margin: 5px 5px 5px 5px !important;
 	visibility:hidden;
 }
 
-#col_1, #col_2, #col_3, #col_4, #col_5, #col_6{
+#col_0, #col_1, #col_2, #col_3, #col_4, #col_5, #col_6{
   font-size: 14px;
 }
