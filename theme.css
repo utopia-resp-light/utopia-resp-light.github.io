@@ -733,7 +733,8 @@ div.uploader span.action
     content: url(./images/kingdom_news/obituaries_inline.png);
 }
 .news-legend span.news-relations:before {
-    content: url(./images/kingdom_news/relations_inline.png);
+    /*content: url(./images/kingdom_news/relations_inline.png);*/
+    content: "R";
 }
 .news-province-modification:before {
     content: url(./images/kingdom_news/province_modification_inline.png);
