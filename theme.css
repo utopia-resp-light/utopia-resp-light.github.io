@@ -27,7 +27,7 @@ body {
 
 
 #header-logo {
-   
+   width: 1px;
 }
 
 .navigation {
@@ -67,11 +67,11 @@ body {
 }
 
 #account-container {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #account-header .account-image {
-
+visibility:hidden;
 }
 
 #account-header
@@ -388,21 +388,17 @@ h3 {
 .error {
     color: #e55700;
 }
+#game-navigation div{
+ font-size: 14px;
+}
 
 #game-navigation .current-date {
 
     padding: 11px 0px;
-
    
-    font-size: 16px;
    
-
     /* border styling */
     border: 2px solid;
-
-
-
-    
 }
 
 #game-navigation a {
@@ -520,13 +516,11 @@ form ul.errorlist {
 
 .game-content form.change-kingdom {
     /* typography */
-    font-family: KnightsQuestRegular;
     font-size: 16px;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
     font-size: 30px;
-    filter: glow(color=#252525,strength=3);
     line-height: 24px;
 }
 
@@ -535,7 +529,7 @@ form ul.errorlist {
     color: #a9a9a9;
     -moz-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
     -webkit-text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
-    text-shadow: -1px 1px 1px #222222, 1px -1px 1px #222222, 1px 1px 1px #222222, -1px -1px 1px #7b7354;
+   
 }
 
 .game-content form.change-kingdom.change-kingdom-target {
@@ -718,9 +712,9 @@ div.uploader span.action
 }
 .game-content form tbody tr:nth-child(even) {
     /* display, opacity and special effects*/
-    background: rgb(48, 48, 48);
+  /*  background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.1);
-
+*/
 }
 
 
@@ -902,7 +896,7 @@ td.news-province-modification {
     margin: 0px 1px;
     padding: 6px 4px 1px 4px;
 
-    font-size: 24px;
+    font-size: 14px;
 
     color: #000;
 
@@ -973,9 +967,9 @@ td.news-province-modification {
 
 .game-content tbody tr:nth-child(even) {
     /* display, opacity and special effects*/
-    background: rgb(48, 48, 48);
+ /*   background: rgb(48, 48, 48);
     background: rgba(48, 48, 48, 0.6);
-
+*/
 }
 
 .game-content tbody tr.sub-total {
@@ -1176,4 +1170,54 @@ td#inline-hostility-meter {
     font-weight: normal;
 }
 
+/**** Utools override ****/
 
+#rescell1,  #rescell2,  #rescell3, #cellNotice{
+color: black !important;
+text-align:left !important;
+background:#FFF !important;
+color:#45ACF6 !important;
+}
+
+/***** Fixing Issues in Layout.css ***/
+#header-navigation {
+    position: relative;
+    left: 0px;
+    top: 2px;
+}
+
+#header-navigation div {
+    float: left;
+    margin: 0px 6px 0px 0px;
+    cursor: pointer;
+}
+
+#throne-monarch-message, #throne-game-message  p,h2{
+ margin: 0;
+ padding: 0;
+}
+
+.game-content table.two-column-stats th {
+    width: 10%;
+    text-align: right;
+}
+
+.game-content table.two-column-stats td {
+    width: 10%;
+    text-align: left;
+}
+
+.game-content h2 {
+    /*width: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+	font-size: 18px;
+}
+
+.game-content h3 {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
