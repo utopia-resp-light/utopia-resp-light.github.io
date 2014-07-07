@@ -202,16 +202,28 @@ lobby-panel th{
 }
 
 .divider {
-    background-image: url(./images/divider.png);
+/*    background-image: url(./images/divider.png);
     background-repeat: no-repeat;
     background-position: top center;
+    */
+    
 }
 
 .divider-small {
-    background-image: url(./images/divider-small.png);
+    /*background-image: url(./images/divider-small.png);
     background-repeat: no-repeat;
     background-position: top center;
+    */
 }
+
+.divider:before{
+	content: "---";
+}
+
+.divider-small:before{
+	content: "---";
+}
+
 
 .lobby-panel table th {
     font-size: 14px;
