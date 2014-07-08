@@ -745,11 +745,11 @@ background:#56534a;
 color:green;
 }
 
-.helptext
-{
-font-size: 10px;
-font-face: normal;
+.helptext{
+font-size: 10 px;
+font-weight: normal;
 }
+
 .spnWait table{
 width: auto;
 font-weight: normal;
