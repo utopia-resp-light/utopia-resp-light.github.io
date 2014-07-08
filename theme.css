@@ -273,19 +273,13 @@ lobby-panel th{
 
 .message {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-
+    font-size: 14px;
+    line-height: 16px;
     /* border styling */
     border: 1px solid;
     border-radius: 8px;
-
-
-
     /* internal styling - padding etc. */
     /* typography */
-    
-    font-size: 18px;
 }
 
 .good.message
@@ -294,8 +288,6 @@ lobby-panel th{
 
     /* colors */
     border-color: #feffea;
-
-
     background: #718d16; /* Old browsers */
 
 }
