@@ -1133,10 +1133,10 @@ margin: 5px 5px 5px 5px !important;
 }
 
 .good{
-	color: green;
+	color: #85C285;
 }
 .bad{
-	color: #C00000;
+	color: #CC8080;
 }
 .advice-message {
 	color: green;
