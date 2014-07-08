@@ -422,14 +422,10 @@ lobby-panel th{
     border-left: 1px;
     border-right: 1px;
     padding: 0px;
-    font-size: 14px;
+   
     margin-top: 18px;
-    
-    border-color: #555555;
     line-height: 30px;
-    /* internal styling - padding etc. */
-
-    /* colors */
+    font-size: 16px;
     border-color: #181818;
 }
 
