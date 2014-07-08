@@ -419,8 +419,8 @@ lobby-panel th{
     border: 1px solid;
     border-top: 1px solid;
     border-bottom: 1px solid;
-    border-left: 0px;
-    border-right: 0px;
+    border-left: 1px;
+    border-right: 1px;
     padding: 0px;
     font-size: 16px;
     margin-top: 18px;
