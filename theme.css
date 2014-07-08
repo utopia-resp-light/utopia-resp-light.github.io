@@ -1141,6 +1141,10 @@ margin: 5px 5px 5px 5px !important;
 .advice-message {
 	color: green;
 }
+.subtotal good{
+	color: #green;
+}
+
 .reportable img{
 	visibility:hidden;
 }
