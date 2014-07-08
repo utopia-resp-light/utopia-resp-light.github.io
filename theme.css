@@ -417,9 +417,17 @@ lobby-panel th{
 .game-content form,
 .game-content h2 {
     border: 1px solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     border-left: 0px;
     border-right: 0px;
-
+    padding: 0px;
+    font-size: 16px;
+    margin-top: 18px;
+    border: 0px;
+    
+    border-color: #555555;
+    line-height: 30px;
     /* internal styling - padding etc. */
 
     /* colors */
@@ -832,17 +840,7 @@ content: "O";
    
 }
 
-.game-content h2 {
-    margin-top: 18px;
-    border: 0px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: #555555;
-   
-    line-height: 30px;
-    font-size: 18px !important;
 
-}
 
 
 .game-content thead th {
@@ -1080,13 +1078,7 @@ padding:0px;
     text-align: left;
 }
 
-.game-content h2 {
-    /*width: 100%;*/
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-	font-size: 16px;
-}
+
 
 .game-content h3 {
     margin-left: 15px;
