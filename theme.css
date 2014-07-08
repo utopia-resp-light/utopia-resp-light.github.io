@@ -1159,3 +1159,8 @@ margin: 5px 5px 5px 5px !important;
 #game-navigation .navigation {
     margin-bottom: 5px;
 }
+
+.ul.toolbar li {
+    background: url("jquery.wysiwyg.gif") no-repeat scroll -64px -80px rgba(0, 0, 0, 0);
+    border: 1px dotted rgb(240, 240, 240);
+}
