@@ -751,7 +751,7 @@ font-weight: normal;
 }
 
 .spnWait table, th{
-width: auto;
+width: 100%;
 font-weight: normal;
 line-height: 16px;
 }
