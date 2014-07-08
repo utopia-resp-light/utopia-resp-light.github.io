@@ -854,18 +854,13 @@ content: "O";
 
 
 .game-content thead th {
-    
     font-weight: normal;
     font-size: 16px;
-
-   
 }
 
 .game-content tbody th {
-    border-left: 6px ridge rgba(48, 48, 48, 0.4);
- 
+    /*border-left: 6px ridge rgba(48, 48, 48, 0.4);*/
     font-size: 16px;
-
 }
 
 .game-content tbody th:first-child {
