@@ -859,7 +859,7 @@ content: "O";
 }
 
 .game-content tbody th {
-    /*border-left: 6px ridge rgba(48, 48, 48, 0.4);*/
+    border-left: 1px ridge rgba(48, 48, 48, 0.4);
     font-size: 16px;
 }
 
