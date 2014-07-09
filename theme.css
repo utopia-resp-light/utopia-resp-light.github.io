@@ -649,6 +649,7 @@ background-color: white !important;
 .game-content table.two-column-stats td {
 width:10%;
 text-align:left;
+background-color: white !important;
 }
 
 .game-content form.change-kingdom .change-kingdom-nav {
