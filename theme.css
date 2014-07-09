@@ -652,6 +652,10 @@ text-align:left;
 background-color: white !important;
 }
 
+.advice-message{
+  background-color: white !important;
+}
+
 .game-content form.change-kingdom .change-kingdom-nav {
 display:inline-block;
 margin:5px 0 4px 4px;
