@@ -769,8 +769,8 @@ padding: 0px 0px 0px 0px !important;
   text-decoration:underline;
   }
 #href_c2cb:before , #href_fa:before {
-content:"+: ";
+content:"| ";
 }
 #href_c2cb:after , #href_fa:after {
-content:"+: ";
+content:" |";
 }
