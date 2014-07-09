@@ -767,7 +767,13 @@ padding: 0px 0px 0px 0px !important;
   background-color: transparent; border: 0; padding: 0;
   color: blue;
   text-decoration:underline;
-  }
+}
+
+
+#href_c2cb:focus, #href_fa:focus, #href_c2cb:hover, #href_fa:hover { 
+  color:#AAA;
+}
+
 #href_c2cb:before , #href_fa:before {
 content:"| ";
 }
