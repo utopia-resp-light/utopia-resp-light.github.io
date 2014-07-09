@@ -643,17 +643,17 @@ padding:0;
 width:10%;
 text-align:right;
 font-size:12px;
-background-color: white !important;
+background-color: #F8F8F8 !important;
 }
 
 .game-content table.two-column-stats td {
 width:10%;
 text-align:left;
-background-color: white !important;
+background-color: #F8F8F8 !important;
 }
 
 .advice-message{
-  background-color: white !important;
+  background-color: #F8F8F8 !important;
 }
 
 .game-content form.change-kingdom .change-kingdom-nav {
