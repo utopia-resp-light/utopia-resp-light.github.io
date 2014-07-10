@@ -99,19 +99,19 @@ border-radius:8px;
 }
 
 .good.message {
-color:#fefff7;
+color:#f8f8f8;
 background:#718d16;
 border-color:#feffea;
 }
 
 .bad.message {
-color:#FFFCF7;
+color:#f8f8f8;
 background:#521802;
 border-color:#feffea;
 }
 
 .info.message {
-color:#FFFCF7;
+color:#f8f8f8;
 background:#D09734;
 border-color:#feffea;
 }
@@ -425,7 +425,7 @@ background-image:url(./images/hostile_meter/example.png);
 }
 
 #id_taunt_top_image {
-color:#FFF;
+color:#f8f8f8;
 }
 
 .province-flag .flagpole {
@@ -585,7 +585,7 @@ background-color:#E5C40F;
 
 .campaigns .campaign-message-intro {
 font-weight:200;
-color:#FFF;
+color:#f8f8f8;
 font-size:16px;
 }
 
@@ -607,7 +607,7 @@ font-weight:400;
 
 #rescell1,#rescell2,#rescell3,#cellNotice {
 text-align:left!important;
-background:#FFF!important;
+background:#F8F8F8 !important;
 color:#45ACF6!important;
 }
 
