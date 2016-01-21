@@ -778,7 +778,6 @@ content:" |";
 
 /* ---------------------------------------------------------------------- */
 
-/* hide crap */
 #left-column > div:first-child  { display: none; }
 #right-column                   { display: none; }
 #middle > div:last-child        { display: none; }
@@ -788,7 +787,7 @@ content:" |";
 @media /*(max-width: 1000px)*/(orientation:portrait) {
 
     #inner-container    { width: auto; }
-    #header             { width: auto; margin: 0 10px 0 12%; }
+    #header             { width: auto; margin: 0 10px 0 15%; }
     #footer             { width: auto; }
 
     #middle {
@@ -810,17 +809,22 @@ content:" |";
     }
 
     #game-navigation {
-        width: 10%;
+        width: 12%;
         position: absolute;
         top: -48px;
         left: 10px;
     }
+    #game-navigation a {
+        font-size:1.8em;
+        line-height: 1.3em;
+    }
     #game-navigation:hover,
     #game-navigation:active,
     #game-navigation:focus {
-        width: 20%;
+        width: 40%;
     }
     #game-navigation .current-date {
+        padding: 15px 0;
         background-color: #f8f8f8;
     }
     #game-navigation .navigation {
