@@ -437,9 +437,7 @@ background:url(./images/province_profile/default_flag.png) no-repeat;
 }
 
 .game-header {
-height:30px;
-border-top:1px solid #6b6348;
-border-bottom:1px solid #6b6348;
+    margin: 3px 0;
 }
 
 .game-header h1 {
@@ -785,7 +783,30 @@ content:" |";
 #right-column                   { display: none; }
 #middle > div:last-child        { display: none; }
 
-/* fluid widths */
-#inner-container    { width: auto; }
-#header             { width: auto; }
-#footer             { width: auto; }
+#header { margin: 0 10px; }
+
+@media /*(max-width: 1000px)*/(orientation:portrait) {
+
+    /* fluid widths */
+    #inner-container    { width: auto; }
+    #header             { width: auto; }
+    #footer             { width: auto; }
+
+    #left-column {
+        width: 100%;
+    }
+    #game-navigation {
+        width: 10%;
+    }
+    #resource-bar {
+        width: 88%;
+        margin: 0;
+    }
+    .game-header {
+        width: 88%;
+    }
+    .game-content {
+        width: 88%;
+    }
+
+}
