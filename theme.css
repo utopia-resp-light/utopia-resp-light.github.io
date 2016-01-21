@@ -787,26 +787,49 @@ content:" |";
 
 @media /*(max-width: 1000px)*/(orientation:portrait) {
 
-    /* fluid widths */
     #inner-container    { width: auto; }
-    #header             { width: auto; }
+    #header             { width: auto; margin: 0 10px 0 12%; }
     #footer             { width: auto; }
+
+    #middle {
+        overflow: visible;
+    }
 
     #left-column {
         width: 100%;
     }
-    #game-navigation {
-        width: 10%;
-    }
     #resource-bar {
-        width: 88%;
+        width: 100%;
         margin: 0;
     }
     .game-header {
-        width: 88%;
+        width: 100%;
     }
     .game-content {
-        width: 88%;
+        width: 100%;
     }
 
+    #game-navigation {
+        width: 10%;
+        position: absolute;
+        top: -48px;
+        left: 10px;
+    }
+    #game-navigation:hover,
+    #game-navigation:active,
+    #game-navigation:focus {
+        width: 20%;
+    }
+    #game-navigation .current-date {
+        background-color: #f8f8f8;
+    }
+    #game-navigation .navigation {
+        display:none;
+        background-color: #f8f8f8;
+    }
+    #game-navigation:hover .navigation,
+    #game-navigation:active .navigation,
+    #game-navigation:focus .navigation {
+        display: block;
+    }
 }
