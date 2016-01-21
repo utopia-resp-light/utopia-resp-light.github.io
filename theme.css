@@ -776,3 +776,18 @@ content:"| ";
 #href_c2cb:after , #href_fa:after {
 content:" |";
 }
+
+
+/* ---------------------------------------------------------------------- */
+
+#left-column:first-child {
+    display: none;
+}
+
+#right-column #skyscraper-ad {
+    display: none;
+}
+
+#middle:last-child {
+    display: none;
+}
