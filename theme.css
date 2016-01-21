@@ -743,10 +743,6 @@ border-left:none;
 font-size:.8em;
 }
 
-.game-content div.preference-box,table.mail-view td.formatted-text {
-background:#56534a;
-}
-
 .good,.advice-message {
 color:green;
 }
@@ -763,14 +759,14 @@ line-height: 16px !important;
 padding: 0px 0px 0px 0px !important;
 }
 
-#href_c2cb, #href_fa {  
+#href_c2cb, #href_fa {
   background-color: transparent; border: 0; padding: 0;
   color: blue;
   text-decoration:underline;
 }
 
 
-#href_c2cb:focus, #href_fa:focus, #href_c2cb:hover, #href_fa:hover { 
+#href_c2cb:focus, #href_fa:focus, #href_c2cb:hover, #href_fa:hover {
   color:#AAA;
 }
 
