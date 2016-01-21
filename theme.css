@@ -815,13 +815,13 @@ content:" |";
         left: 10px;
     }
     #game-navigation a {
-        font-size:1.8em;
+        font-size:3em;
         line-height: 1.3em;
     }
     #game-navigation:hover,
     #game-navigation:active,
     #game-navigation:focus {
-        width: 40%;
+        width: 60%;
     }
     #game-navigation .current-date {
         padding: 15px 0;
