@@ -826,6 +826,7 @@ content:" |";
     #game-navigation .navigation {
         display:none;
         background-color: #f8f8f8;
+        z-index: 10000;
     }
     #game-navigation:hover .navigation,
     #game-navigation:active .navigation,
