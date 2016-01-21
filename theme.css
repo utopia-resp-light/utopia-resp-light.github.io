@@ -780,14 +780,12 @@ content:" |";
 
 /* ---------------------------------------------------------------------- */
 
-#left-column > div:first-child {
-    display: none;
-}
+/* hide crap */
+#left-column > div:first-child  { display: none; }
+#right-column                   { display: none; }
+#middle > div:last-child        { display: none; }
 
-#right-column #skyscraper-ad {
-    display: none;
-}
-
-#middle > div:last-child {
-    display: none;
-}
+/* fluid widths */
+#inner-container    { width: auto; }
+#header             { width: auto; }
+#footer             { width: auto; }
