@@ -780,7 +780,7 @@ content:" |";
 
 /* ---------------------------------------------------------------------- */
 
-#left-column:first-child {
+#left-column > div:first-child {
     display: none;
 }
 
@@ -788,6 +788,6 @@ content:" |";
     display: none;
 }
 
-#middle:last-child {
+#middle > div:last-child {
     display: none;
 }
