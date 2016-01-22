@@ -200,6 +200,7 @@ color:#e26f80;
 
 .game-content form.change-kingdom {
 font-size:14px;
+z-index: 1;
 }
 
 .game-content form.change-kingdom .change-kingdom-heading {
@@ -776,15 +777,13 @@ content:" |";
 }
 
 
-/* ---------------------------------------------------------------------- */
-
 #left-column > div:first-child  { display: none; }
 #right-column                   { display: none; }
 #middle > div:last-child        { display: none; }
 
 #header { margin: 0 10px; }
 
-@media /*(max-width: 1000px)*/(orientation:portrait) {
+@media (orientation:portrait) {
 
     #inner-container    { width: auto; }
     #header             { width: auto; margin: 0 10px 0 15%; }
