@@ -776,11 +776,6 @@ content:"| ";
 content:" |";
 }
 
-
-#left-column > div:first-child  { display: none; }
-#right-column                   { display: none; }
-#middle > div:last-child        { display: none; }
-
 #header { margin: 0 10px; }
 
 @media (orientation:portrait) {
